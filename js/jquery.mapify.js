@@ -225,7 +225,7 @@
         if (!googleLoaded || !googleLoading) {
             googleLoading = true;
 
-        var apiKey = 'AIzaSyCthNHNmihmVx6BYurhLo5Z_2q3WlKnYlo';
+        var apiKey = 
           
         $.getScript('https://maps.googleapis.com/maps/api/js?key=' + apiKey + '&language=en', function() {
             mapify(collection, settings);
